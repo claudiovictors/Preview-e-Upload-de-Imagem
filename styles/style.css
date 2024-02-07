@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* background color #ae07c4*/
+
+body {
+    gap: 50px;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #ae07c4;
+}
+
+.conteudo {
+    width: 370px;
+    padding: 25px 30px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+
+.conteudo header {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.conteudo header h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.conteudo form {
+    margin-top: 5px;
+}
+
+.conteudo form .imagem {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo form .imagem img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.conteudo form .linhas {
+    display: flex;
+    padding-bottom: 15px;
+    flex-direction: column;
+}
+
+form .linhas label {
+    height: 45px;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #ae07c4;
+}
+
+form .linhas label i {
+    color: #fff;
+    font-size: 21px;
+}
+
+form .linhas label span {
+    color: #fff;
+    font-size: 17px;
+}
+
+form .linhas button {
+    border: none;
+    height: 45px;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+form .linhas button i {
+    color: #fff;
+    font-size: 21px;
+}
+
+form .linhas button span {
+    color: #fff;
+    font-size: 17px;
+}
